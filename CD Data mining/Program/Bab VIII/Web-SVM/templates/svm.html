@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> PENJURUSAN</title>
+</head>
+<body>
+	<h1>Penjurusan Siswa</h1>
+
+    <div class="container">
+    	<form method="POST" action="{{url_for('predict')}}">
+    		<div>
+    			<label>Nilai IPA:</label>
+        		<input type="text-align" name="variable1">			
+    		</div>
+    		<div>
+    			<label>Nilai IPS:</label>	
+    			<input type="text-align" name="variable2">
+    		</div>
+    	<button style="text-align: center;">Prediksi Jurusan</button>    		
+    	</form>
+
+    </div>
+</body>
+</html>
